@@ -1,4 +1,4 @@
-# Student Management System (Java + JDBC + PostgreSQL)
+## Student Management System (Java + JDBC + PostgreSQL)
 Java Swing based Student Management System using JDBC and PostgreSQL
 
 ## Project Description
@@ -25,16 +25,6 @@ This is a Java-based Student Management System that performs CRUD operations usi
 
 ---
 
-## Project Structure
-StudentManagement/
-│
-├── Student.java # Model class
-├── StudentDAO.java # Database operations (DAO)
-├── DBConnection.java # JDBC connection handler
-├── StudentGUI.java # Swing GUI
-└── postgresql-42.7.8.jar # JDBC driver
-
----
 ## How to Run the Project
 ## Compile
 javac -cp ".;postgresql-42.7.8.jar" *.java
